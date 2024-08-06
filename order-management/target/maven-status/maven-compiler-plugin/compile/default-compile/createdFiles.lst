@@ -1,5 +1,5 @@
-com/murilohenzo/ordermanagement/representation/OrderRepresentation.class
-com/murilohenzo/ordermanagement/domain/service/OrderService.class
-com/murilohenzo/ordermanagement/infrastructure/OrderRepository.class
-com/murilohenzo/ordermanagement/domain/entity/Order.class
-com/murilohenzo/ordermanagement/infrastructure/config/OrderModuleConfiguration.class
+com/afaqy/internship/ordermanagement/representation/OrderRepresentation.class
+com/afaqy/internship/ordermanagement/domain/service/OrderService.class
+com/afaqy/internship/ordermanagement/domain/entity/Order.class
+com/afaqy/internship/ordermanagement/infrastructure/OrderRepository.class
+com/afaqy/internship/ordermanagement/infrastructure/config/OrderModuleConfiguration.class

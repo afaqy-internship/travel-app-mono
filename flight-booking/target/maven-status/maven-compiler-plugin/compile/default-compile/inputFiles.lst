@@ -1,4 +1,4 @@
-/home/afaqy-pc/0-projects/0.demo/mono-to-micro/mono/flight-booking/src/main/java/com/murilohenzo/flightbooking/domain/entity/Flight.java
-/home/afaqy-pc/0-projects/0.demo/mono-to-micro/mono/flight-booking/src/main/java/com/murilohenzo/flightbooking/infrastructure/FlightRepository.java
-/home/afaqy-pc/0-projects/0.demo/mono-to-micro/mono/flight-booking/src/main/java/com/murilohenzo/flightbooking/domain/service/FlightService.java
-/home/afaqy-pc/0-projects/0.demo/mono-to-micro/mono/flight-booking/src/main/java/com/murilohenzo/flightbooking/infrastructure/config/FlightConfiguration.java
+/home/afaqy-pc/0-projects/internship/travel-app-mono/flight-booking/src/main/java/com/afaqy/internship/flightbooking/domain/entity/Flight.java
+/home/afaqy-pc/0-projects/internship/travel-app-mono/flight-booking/src/main/java/com/afaqy/internship/flightbooking/infrastructure/config/FlightConfiguration.java
+/home/afaqy-pc/0-projects/internship/travel-app-mono/flight-booking/src/main/java/com/afaqy/internship/flightbooking/domain/service/FlightService.java
+/home/afaqy-pc/0-projects/internship/travel-app-mono/flight-booking/src/main/java/com/afaqy/internship/flightbooking/infrastructure/FlightRepository.java

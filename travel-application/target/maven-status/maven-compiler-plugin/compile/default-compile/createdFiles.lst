@@ -1,5 +1,5 @@
-com/murilohenzo/travelapp/adapters/rest/OrderApiDelegate.class
-com/murilohenzo/travelapp/TravelAppApplication.class
-com/murilohenzo/travelapp/config/TravelAppConfiguration.class
-com/murilohenzo/travelapp/adapters/rest/FlightApiDelegate.class
-com/murilohenzo/travelapp/adapters/rest/HotelApiDelegate.class
+com/afaqy/internship/travelapp/adapters/rest/FlightApiDelegate.class
+com/afaqy/internship/travelapp/config/TravelAppConfiguration.class
+com/afaqy/internship/travelapp/TravelAppApplication.class
+com/afaqy/internship/travelapp/adapters/rest/HotelApiDelegate.class
+com/afaqy/internship/travelapp/adapters/rest/OrderApiDelegate.class

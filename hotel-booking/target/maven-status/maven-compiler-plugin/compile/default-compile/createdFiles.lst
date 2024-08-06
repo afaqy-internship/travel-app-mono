@@ -1,4 +1,4 @@
-com/murilohenzo/hotelbooking/domain/entity/Hotel.class
-com/murilohenzo/hotelbooking/domain/service/HotelService.class
-com/murilohenzo/hotelbooking/infrastructure/config/HotelConfiguration.class
-com/murilohenzo/hotelbooking/infrastructure/HotelRepository.class
+com/afaqy/internship/hotelbooking/infrastructure/HotelRepository.class
+com/afaqy/internship/hotelbooking/domain/service/HotelService.class
+com/afaqy/internship/hotelbooking/infrastructure/config/HotelConfiguration.class
+com/afaqy/internship/hotelbooking/domain/entity/Hotel.class
