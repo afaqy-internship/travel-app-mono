@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0">
+    <activeProfiles>
+        <activeProfile>local</activeProfile>
+    </activeProfiles>
+</settings>

@@ -1,0 +1,74 @@
+version: "3.7"
+
+services:
+  zookeeper:
+    image: bitnami/zookeeper:3
+    ports:
+      - '2181:2181'
+    volumes:
+      - zookeeper_data:/bitnami
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+    networks:
+      - internship-demo
+
+  kafka:
+    image: bitnami/kafka:3
+    ports:
+      - '9092:9092'
+      - '29092:29092'
+    volumes:
+      - kafka_data:/bitnami
+    environment:
+      - KAFKA_BROKER_ID=1
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - ALLOW_PLAINTEXT_LISTENER=yes
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      - KAFKA_CFG_LISTENERS=PLAINTEXT://kafka:9092,PLAINTEXT_HOST://:29092
+      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:29092
+      - KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true
+      - KAFKA_CFG_TRANSACTION_STATE_LOG_REPLICATION_FACTOR=1
+      - KAFKA_CFG_TRANSACTION_STATE_LOG_MIN_ISR=1
+    networks:
+      - internship-demo
+    depends_on:
+      - zookeeper
+  redis:
+    image: redis:7.2.3
+    # Enable event notification for expired keys
+    command: redis-server --notify-keyspace-events Ex
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - internship-demo
+    depends_on:
+      - zookeeper
+      - kafka
+  db-mysql:
+    image: mysql:8.0.27
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/data
+      - ./mysql-dump:/docker-entrypoint-initdb.d
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+    networks:
+      - internship-demo
+    environment:
+      - "MYSQL_ROOT_PASSWORD=root"
+      - "MYSQL_PASSWORD=Internship@#afaqy"
+      - "MYSQL_USER=afaqy"
+      - "MYSQL_DATABASE=travelapp"
+      - "MYSQL_ALLOW_EMPTY_PASSWORD= no"
+
+networks:
+  internship-demo:
+
+volumes:
+  zookeeper_data:
+  kafka_data:
+  redis_data:
+  mysql-data:

@@ -1,0 +1,4 @@
+com/murilohenzo/flightbooking/infrastructure/config/FlightConfiguration.class
+com/murilohenzo/flightbooking/domain/entity/Flight.class
+com/murilohenzo/flightbooking/domain/service/FlightService.class
+com/murilohenzo/flightbooking/infrastructure/FlightRepository.class

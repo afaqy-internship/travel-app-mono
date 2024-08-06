@@ -1,0 +1,5 @@
+com/murilohenzo/ordermanagement/representation/OrderRepresentation.class
+com/murilohenzo/ordermanagement/domain/service/OrderService.class
+com/murilohenzo/ordermanagement/infrastructure/OrderRepository.class
+com/murilohenzo/ordermanagement/domain/entity/Order.class
+com/murilohenzo/ordermanagement/infrastructure/config/OrderModuleConfiguration.class

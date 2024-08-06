@@ -1,0 +1,5 @@
+com/murilohenzo/travelapp/adapters/rest/OrderApiDelegate.class
+com/murilohenzo/travelapp/TravelAppApplication.class
+com/murilohenzo/travelapp/config/TravelAppConfiguration.class
+com/murilohenzo/travelapp/adapters/rest/FlightApiDelegate.class
+com/murilohenzo/travelapp/adapters/rest/HotelApiDelegate.class
