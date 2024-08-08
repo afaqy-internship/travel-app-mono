@@ -1,0 +1,26 @@
+version: "3.7"
+
+services:
+  order-mysql:
+    image: mysql:8.0.27
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/data
+      - ./mysql-dump:/docker-entrypoint-initdb.d
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+    networks:
+      - internship-demo
+    environment:
+      - "MYSQL_ROOT_PASSWORD=root"
+      - "MYSQL_PASSWORD=Internship@#afaqy"
+      - "MYSQL_USER=afaqy"
+      - "MYSQL_DATABASE=order-app"
+      - "MYSQL_ALLOW_EMPTY_PASSWORD= no"
+
+networks:
+  internship-demo:
+
+volumes:
+  mysql-data:

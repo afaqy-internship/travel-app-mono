@@ -1,0 +1,15 @@
+com/afaqy/internship/msordermanagement/representation/FlightRequestRepresentation.class
+com/afaqy/internship/msordermanagement/domain/service/FlightService.class
+com/afaqy/internship/msordermanagement/domain/service/OrderService.class
+com/afaqy/internship/msordermanagement/infrastructure/HotelRepository.class
+com/afaqy/internship/msordermanagement/representation/FlightResponseRepresentation.class
+com/afaqy/internship/msordermanagement/representation/HotelResponseRepresentation.class
+com/afaqy/internship/msordermanagement/representation/OrderResponseRepresentation.class
+com/afaqy/internship/msordermanagement/infrastructure/OrderRepository.class
+com/afaqy/internship/msordermanagement/representation/HotelRequestRepresentation.class
+com/afaqy/internship/msordermanagement/representation/OrderRequestRepresentation.class
+com/afaqy/internship/msordermanagement/infrastructure/FlightRepository.class
+com/afaqy/internship/msordermanagement/adapters/rest/OrderApiDelegate.class
+com/afaqy/internship/msordermanagement/MsOrderManagementApplication.class
+com/afaqy/internship/msordermanagement/domain/service/HotelService.class
+com/afaqy/internship/msordermanagement/domain/entity/Order.class
