@@ -1,0 +1,5 @@
+com/afaqy/internship/msflightbooking/infrastructure/FlightRepository.class
+com/afaqy/internship/msflightbooking/adapters/rest/FlightApiDelegate.class
+com/afaqy/internship/msflightbooking/MsFlightBookingApplication.class
+com/afaqy/internship/msflightbooking/domain/service/FlightService.class
+com/afaqy/internship/msflightbooking/domain/entity/Flight.class

@@ -1,0 +1,5 @@
+/home/afaqy-pc/0-projects/internship/mono-to-micro/micro/ms-flight-booking/src/main/java/com/afaqy/internship/msflightbooking/domain/service/FlightService.java
+/home/afaqy-pc/0-projects/internship/mono-to-micro/micro/ms-flight-booking/src/main/java/com/afaqy/internship/msflightbooking/MsFlightBookingApplication.java
+/home/afaqy-pc/0-projects/internship/mono-to-micro/micro/ms-flight-booking/src/main/java/com/afaqy/internship/msflightbooking/domain/entity/Flight.java
+/home/afaqy-pc/0-projects/internship/mono-to-micro/micro/ms-flight-booking/src/main/java/com/afaqy/internship/msflightbooking/infrastructure/FlightRepository.java
+/home/afaqy-pc/0-projects/internship/mono-to-micro/micro/ms-flight-booking/src/main/java/com/afaqy/internship/msflightbooking/adapters/rest/FlightApiDelegate.java
